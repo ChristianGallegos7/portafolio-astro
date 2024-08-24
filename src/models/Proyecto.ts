@@ -2,7 +2,7 @@ export interface Proyecto {
     id: number;
     name: string;
     description: string;
-    image: string;
+    image: ImageMetadata;
     link: string;
-    githubLink:string;
+    githubLink: string;
 }
